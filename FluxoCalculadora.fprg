@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="igormarques"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-05 10:53:41 AM"/>
+        <attribute name="created" value="aWdvcm1hcnF1ZXM7TUFSQ09TLUlOU1BJUk9OOzIwMjItMDQtMDU7MTA6NDI6NDggQU07MzU4Ng=="/>
+        <attribute name="edited" value="aWdvcm1hcnF1ZXM7TUFSQ09TLUlOU1BJUk9OOzIwMjItMDQtMDU7MTA6NTM6NDEgQU07MTszNjg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3, soma, sub, multi, div" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <input variable="num3"/>
+            <assign variable="soma" expression="num1+num2+num3"/>
+            <assign variable="sub" expression="num1-num2-num3"/>
+            <assign variable="multi" expression="num1*num2*num3"/>
+            <assign variable="div" expression="num1/num2/num3"/>
+            <output expression="soma" newline="True"/>
+            <output expression="sub" newline="True"/>
+            <output expression="multi" newline="True"/>
+            <output expression="div" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

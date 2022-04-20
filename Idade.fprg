@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="igormarques"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-05 11:00:21 AM"/>
+        <attribute name="created" value="aWdvcm1hcnF1ZXM7TUFSQ09TLUlOU1BJUk9OOzIwMjItMDQtMDU7MTA6NTM6NDQgQU07MzU4NA=="/>
+        <attribute name="edited" value="aWdvcm1hcnF1ZXM7TUFSQ09TLUlOU1BJUk9OOzIwMjItMDQtMDU7MTE6MDA6MjEgQU07MTszNjgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dia, mes, ano, totaldias, idade" type="Integer" array="False" size=""/>
+            <input variable="dia"/>
+            <input variable="mes"/>
+            <input variable="ano"/>
+            <assign variable="idade" expression="ano - 2022"/>
+            <assign variable="totaldias" expression="idade * 365"/>
+            <output expression="totaldias" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
