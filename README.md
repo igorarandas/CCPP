@@ -13,4 +13,4 @@ fluxogramas dos programas acima:
 
 FluxogramaCalculadora;
 FluxogramaTrocaDeNúmeros;
-FluxoFgramaIdade;
+FluxogramaIdade;
